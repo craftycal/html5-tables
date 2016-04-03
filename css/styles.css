@@ -1,15 +1,57 @@
 #sale {
-	border: none;
-}
+		font-family: Arial;
+		margin: 100px 0;
+		border: 1px solid #333333;
+		border-collapse: collapse;
 
-#sale th{
-	font-family: sans-serif;
-	background-color: #72D5E8;
-	color: white;
-}
+	}
 
-#sale td{
-	color: #333333;
-	background-color: #E3E3E3;
-}
+	#sale caption {
+		font-size: 24px;
+		margin-bottom: 10px; 
+
+	}
+
+	#sale th{
+		background-color: #4D9CB2;
+		color: white;
+		font-weight: normal;
+		font-size: 18px;
+		padding: 5px 10px;
+		border: 1px solid #43889C;
+	}
+
+	#sale td:first-child{
+		font-weight: bold;
+	}
+
+	#sale tr:nth-child(2n){
+		background-color: #dddedd;
+	}
+
+	#sale td{
+		padding: 5px;
+		color: #333333;
+	}
+
+	#sale tr:hover{
+		background-color: #7FFF87;
+		color: black;
+	}
+
+	#cpu-pro,
+	#cpu-standard {
+		width: 100px;
+
+	} 
+
+	#sale td:nth-child(3),
+	#sale td:nth-child(4){
+		text-align: center;
+
+	}
+
+
+
+
 
